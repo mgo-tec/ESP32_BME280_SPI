@@ -1,7 +1,7 @@
 #include "ESP32_BME280_SPI.h"
 
 const uint8_t SCLK_bme280 = 14;
-const uint8_t MOSI_bme280 =13; //Master Output Slave Input ESP8266=Master,BME280=slave 
+const uint8_t MOSI_bme280 =13; //Master Output Slave Input ESP32=Master,BME280=slave 
 const uint8_t MISO_bme280 =12; //Master Input Slave Output
 const uint8_t CS_bme280 = 26; //CS pin
 
